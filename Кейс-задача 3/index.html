@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Кейс-задача 3. Слайдер изображений</title>	
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">	 
+</head>
+<body>
+    <div class="slider">
+        <div class="slides">
+            <div class="slide" style="background-image: url('1.jpg');"></div>
+            <div class="slide" style="background-image: url('2.jpg');"></div>
+            <div class="slide" style="background-image: url('3.jpg');"></div>
+            <div class="slide" style="background-image: url('4.jpg');"></div>
+            <div class="slide" style="background-image: url('5.jpg');"></div>
+        </div>
+        <button class="prev" onclick="changeSlide(-1)"><img src="left.svg" width="40px" height="40px";></button>
+        <button class="next" onclick="changeSlide(1)"><img src="right.svg" width="40px" height="40px";></button>
+		<div class="slide-number" id="slide-number"></div>
+    </div>
+
+<script src="app.js"></script>
+      
+</body>
+</html>
+
